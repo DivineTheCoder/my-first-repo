@@ -1,0 +1,60 @@
+body {
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+    height: 1000rem;
+}
+
+h2 ~ p, em, b {
+    color: red;
+}
+
+button {
+    background: green;
+    border: none;
+    color: white;
+    padding: 20px;
+    border-radius: 30px;
+    ;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top: 45px;
+    margin-left: 30px;
+}
+
+button::before {
+    content: "hi";
+    display: block;
+    font-size: 40px;
+    color: red;
+}
+
+
+#img {
+    width: 300px;
+    margin-top: 50px;
+    display: block;
+    border-top-left-radius: 50px;
+}
+
+img {
+    width: 300px;
+}
+
+.container {
+    background-color: skyblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px;
+    
+}
+
+.container > img {
+    border-radius: 50%;
+    height: 230px;
+    width: 50x;
+    border: 1px solid black;
+
+}
